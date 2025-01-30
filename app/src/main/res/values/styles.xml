@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. this was base.Theme-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+
+    </style>
+
+    <style name="font_sans_light">
+        <item name="android:fontFamily">sans-serif-light</item>
+
+    </style>
+
+</resources>

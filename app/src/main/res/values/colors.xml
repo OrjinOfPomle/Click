@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#193F51B5</color>
+    <color name="colorPrimaryDark">#13162C</color>
+    <color name="colorLightBackground">#DCD6F7</color>
+    <color name="colorFontColorMatchBackground">#424874</color>
+    <color name="colorAccent">#424874</color>
+    <color name="appsBackgroundColor">#7EB2DD</color>
+    <color name="alertGreen">#169600</color>
+    <color name="alertRedBrown">#E53935</color>
+    <color name="alertYellow">#FFD600</color>
+    <color name="alertBlue">#039BE5</color>
+    <color name="alertOrange">#FFB300</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+</resources>

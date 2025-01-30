@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirebasePractice</string>
+    <string name="Button">add information</string>
+    <string name="facebook_app_id">613482209148808</string>
+    <string name="facebook_application_id" translatable="false">613482209148808</string>
+    <string name="print_text_id">print text</string>
+    <string name="title_activity_second">second</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="login_hint">login</string>
+    <string name="admob_app_id">ca-app-pub-9187494759114498~6053711226</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9187494759114498/2161378306</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-9187494759114498/5275816178</string>
+
+
+</resources>

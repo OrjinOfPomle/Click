@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fireflyglobe.kmamo.click">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.fireflyglobe.kmamo.click.fireApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Click"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.fireflyglobe.kmamo.click.groups"></activity>
+        <!--
+        <activity
+            android:name=".second"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_second"></activity>
+        -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.fireflyglobe.kmamo.click.MainActivity" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9187494759114498~6053711226"/>
+
+        <activity android:name="com.fireflyglobe.kmamo.click.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".purchases"/>
+
+        <activity android:name="com.fireflyglobe.kmamo.click.profile" />
+        <receiver android:name="com.fireflyglobe.kmamo.click.MyLocationUpdateReceiver"
+                  android:exported ="false"
+            />
+        <service android:name="com.fireflyglobe.kmamo.click.isAppDead" />
+    </application>
+
+</manifest>

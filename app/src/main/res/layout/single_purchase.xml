@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/single_group_constraintLayout">
+
+
+    <TextView
+        android:id="@+id/purchaseName"
+        android:layout_width="264dp"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical"
+        android:text="Subscription item"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif-light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="73dp"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Price"
+        app:fontFamily="sans-serif-condensed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

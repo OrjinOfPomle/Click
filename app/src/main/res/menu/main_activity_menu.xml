@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/edit_groups"
+        android:title="Edit Groups"
+        app:showAsAction="never"/>
+    <item android:id="@+id/LocationSetting"
+        android:title="Turn Location On/Off"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/upgrades"
+        android:title="Upgrades"
+        app:showAsAction="never"
+        />
+
+</menu>

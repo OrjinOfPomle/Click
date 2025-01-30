@@ -1,0 +1,6 @@
+package com.fireflyglobe.kmamo.click;
+
+public class Constants {
+    public static final String SKU_DELAROY_MONTHLY = "100m";
+    public static final String base64EncodedPublicKey ="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmOkEwymy5pQvaMRcYFkKvZpScEtiDSC038pH6XrTGCy9vI4ZFhK6zsf+fjGP0Qo85SyQmS0JGWkOQD0TrApqO2RjNfRbtNhysSc18Hg79dfGCRGf0TQCI/uB7eeAeB6o/gKilIvAz7MDgpj+nc3u60BtF2HZTzl/uq85ESs5SDPM52kWUSQc5rou3st/enQ3JhHhS2R+b/W4J9ZXIvdDvsIanBbRfZrXY19H4yRtM1QKJZwDJ2KsP/ie1MUyCHjAOPs82i7L4obv3er8p1HcJKtMBw8C+3/x74HF67KND6IApwpEwYxzyHGyn3Hf30iEUFa/+X5FRYQzVimQ5ro5yQIDAQAB";
+}
